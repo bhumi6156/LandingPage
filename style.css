@@ -1,0 +1,172 @@
+body {
+  background-color: #f4c4ba;
+font-family: 'Viaoda Libre', cursive;
+
+}
+
+h2 {
+  font-size: 1.7rem;
+}
+
+img {
+  width: 80px;
+  height: 80px;
+  
+}
+
+ul {
+    width: 35vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+#header {
+    position: fixed;
+  z-index: 1;
+    top: 0;
+    height: 75px;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+  background-color: #f4c4ba;
+  
+}
+
+.nav-link {
+  text-decoration: none;
+  color: black;
+
+}
+ 
+footer {
+  margin-top: 50px;
+  font-size: 0.8rem;
+  text-align: center;
+}
+
+#page {
+    position: relative;
+}
+
+#form-group, #about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 200px;
+    margin-top: 100px;
+}
+#email {
+  width: 250px;
+  height: 25px;
+}
+
+.submit {
+  height: 30px;
+  font-family: 'Viaoda Libre', cursive;
+  font-size: 1.2rem;
+  color: white;
+  background-color: black;
+}
+
+#about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 100px;
+    height: 400px;
+}
+
+::placeholder {
+  font-family: 'Viaoda Libre', cursive;
+  font-size: 0.9rem;
+}
+
+.container {
+    margin-top: 100px;
+
+}
+.grid {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+    text-align: left;
+   margin-left: 80px;
+  margin-right: 80px;
+
+}
+
+
+
+.icon{
+   margin-top: 15px;
+  
+
+}
+
+.description {
+  margin-left: 30px;
+  font-size: 1.25rem;
+}
+
+#video {
+
+}
+
+#gallery {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  font-size: 0.5rem;
+}
+
+
+ .kurta {
+   padding: 15px 0;
+   margin-left: 60px;
+   width: 100%;
+}
+
+.gallery-img {
+  width: 300px;
+  height: 300px;
+}
+
+
+
+@media (max-width: 600px)
+header {
+    flex-wrap: wrap;
+}
+
+@media (max-width: 650px)
+nav {
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 0 50px;
+}
+
+@media (max-width: 650px)
+#categories .description {
+    width: 100%;
+    text-align: center;
+    padding: 0;
+    height: 150px;
+}
+
+@media (max-width: 650px)
+#categories .icon {
+    display: none;
+}
